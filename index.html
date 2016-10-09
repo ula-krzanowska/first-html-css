@@ -3,25 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <title>Kubcio</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap.min.js">
+    </script>
 </head>
 <body>
-<ol>
-    <li>Koń1</li>
-    <table title="parametry">
-        <tr>
-            <th>wielkość</th>
-            <th>grubość</th>
-        </tr>
-        <tr>
-            <td>duża</td>
-            <td>wielka</td>
-        </tr>
+<button data-toggle="collapse" data-target="#kon1">kon1</button>
 
-    </table>
-    <a href="http://wikipedia.pl">
-        <img src="http://www.po-land.pl/img/upload/20120314171712.jpg" alt="Koń">
-    </a>
+<div id="kon1" class="collapse">
+    <img src="http://www.po-land.pl/img/upload/20120314171712.jpg" alt="Koń">
+
+    <ol class="list-group">
+        <li>Koń1</li>
+        <table class="table-striped" title="parametry">
+            <tr>
+                <th>wielkość</th>
+                <th>grubość</th>
+            </tr>
+            <tr>
+                <td>duża</td>
+                <td>wielka</td>
+            </tr>
+        </table>
+    </ol>
+</div>
+
+<br>
+
+<button data-toggle="collapse" data-target="#kon2">kon2</button>
+<div id="kon2" class="collapse">
+    <img src="http://www.newsweek.pl/g/crop/0/-550/newsweek/635920809378834022.jpg" alt="Koń">
     <li>Koń2</li>
     <table title="parametry">
         <tr>
@@ -33,12 +46,9 @@
             <td>wielka</td>
         </tr>
     </table>
+</div>
 
-        <a href="http://porno.pl">
-            <img src="http://www.newsweek.pl/g/crop/0/-550/newsweek/635920809378834022.jpg" alt="Koń">
-        </a>
 
-</ol>
 
 </body>
 </html>

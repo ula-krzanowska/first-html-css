@@ -13,9 +13,10 @@ ol.c {
     list-style-type: upper-roman;
 }
 
-table, th, td {
-    border: 1px solid black;
-    align-items: baseline;
+.table-striped {
+    width: 100px;
+    max-width: 200px;
+    margin-bottom: 20px;
 }
 
 table:hover {
